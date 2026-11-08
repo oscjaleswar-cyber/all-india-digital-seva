@@ -1,0 +1,13 @@
+[
+  {"name":"ଆଧାର ସେବା ସୂଚନା","category":"ପରିଚୟ ପତ୍ର","description":"ଆଧାର ସମ୍ବନ୍ଧୀୟ ନିୟମ, ଅପଡେଟ୍ ଓ ଅଧିକୃତ କେନ୍ଦ୍ର ବିଷୟରେ ସୂଚନା।","url":"https://uidai.gov.in/","icon":"▣","keywords":["Aadhaar","UIDAI","ଆଧାର"]},
+  {"name":"PAN କାର୍ଡ ସେବା","category":"ପରିଚୟ ପତ୍ର","description":"PAN ଆବେଦନ ଓ ସଂଶୋଧନ ପାଇଁ ଅଫିସିଆଲ୍ ସୂଚନା।","url":"https://www.protean-tinpan.com/","icon":"▤","keywords":["PAN","ପାନ","Protean"]},
+  {"name":"ଭୋଟର୍ ID ସେବା","category":"ପରିଚୟ ପତ୍ର","description":"ଭୋଟର୍ ପଞ୍ଜୀକରଣ, ସଂଶୋଧନ ଓ ଭୋଟର୍ ସୂଚନା।","url":"https://voters.eci.gov.in/","icon":"▧","keywords":["Voter","EPIC","ଭୋଟର"]},
+  {"name":"ଡ୍ରାଇଭିଂ ଲାଇସେନ୍ସ","category":"ଯାନବାହନ","description":"Learner Licence ଓ Driving Licence ସମ୍ବନ୍ଧୀୟ ଅଫିସିଆଲ୍ ପ୍ରକ୍ରିୟା।","url":"https://parivahan.gov.in/","icon":"⌁","keywords":["DL","LL","Parivahan","ଲାଇସେନ୍ସ"]},
+  {"name":"ଓଡ଼ିଶା e-District","category":"ସରକାରୀ ସେବା","description":"ଓଡ଼ିଶାର ଅଧିକୃତ ଅନଲାଇନ୍ ନାଗରିକ ସେବା ଓ ସାର୍ଟିଫିକେଟ୍ ସୂଚନା।","url":"https://edistrict.odisha.gov.in/","icon":"⌂","keywords":["Caste","Income","Resident","ଜାତି","ଆୟ","ବାସିନ୍ଦା"]},
+  {"name":"ରାସନ୍ କାର୍ଡ ସେବା","category":"ସରକାରୀ ସେବା","description":"ଓଡ଼ିଶା PDS ଓ ରାସନ୍ କାର୍ଡ ସମ୍ବନ୍ଧୀୟ ସୂଚନା।","url":"https://pdsodisha.gov.in/","icon":"▥","keywords":["Ration","PDS","ରାସନ"]},
+  {"name":"e-Shram ପଞ୍ଜୀକରଣ","category":"ସରକାରୀ ସେବା","description":"ଅସଂଗଠିତ ଶ୍ରମିକଙ୍କ ପାଇଁ ଅଫିସିଆଲ୍ e-Shram ପୋର୍ଟାଲ୍।","url":"https://eshram.gov.in/","icon":"♧","keywords":["Shram","Labour","ଶ୍ରମିକ"]},
+  {"name":"ପାସପୋର୍ଟ ସେବା","category":"ପରିଚୟ ପତ୍ର","description":"ପାସପୋର୍ଟ ଆବେଦନ ଓ appointment ପାଇଁ ସରକାରୀ ପୋର୍ଟାଲ୍।","url":"https://www.passportindia.gov.in/","icon":"▣","keywords":["Passport","ପାସପୋର୍ଟ"]},
+  {"name":"GST ପୋର୍ଟାଲ୍","category":"ବ୍ୟବସାୟ","description":"GST ପଞ୍ଜୀକରଣ, return ଓ କର ସମ୍ବନ୍ଧୀୟ ଅଫିସିଆଲ୍ ପୋର୍ଟାଲ୍।","url":"https://www.gst.gov.in/","icon":"⌘","keywords":["GST","Tax","ବ୍ୟବସାୟ"]},
+  {"name":"DigiLocker","category":"ଡକ୍ୟୁମେଣ୍ଟ","description":"ଡିଜିଟାଲ୍ ଡକ୍ୟୁମେଣ୍ଟ ଓ ସାର୍ଟିଫିକେଟ୍ ପାଇଁ ସରକାରୀ ପ୍ଲାଟଫର୍ମ।","url":"https://www.digilocker.gov.in/","icon":"▤","keywords":["Document","Certificate","ଡିଜିଟାଲ୍"]},
+  {"name":"PDF ଓ ପ୍ରିଣ୍ଟ ସହାୟତା","category":"ଡକ୍ୟୁମେଣ୍ଟ","description":"PDF, scan, document formatting ଓ print ସେବା ପାଇଁ ସହାୟତା।","url":"https://www.digilocker.gov.in/","icon":"▧","keywords":["PDF","Print","Scan","ପ୍ରିଣ୍ଟ"]}
+]
