@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="or">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b72">
+  <meta name="description" content="All India Digital Seva — digital services, online application assistance and print support.">
+  <title>All India Digital Seva | Digital Service & Print Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="topline"><div class="container top-inner"><span>ଭାରତର ଡିଜିଟାଲ୍ ସେବା ସହାୟତା ପୋର୍ଟାଲ୍</span><span class="top-note">ସଠିକ୍ ସୂଚନା • ସହଜ ସହାୟତା</span></div></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#" aria-label="All India Digital Seva home">
+        <span class="brand-mark">A<span>+</span></span>
+        <span><strong>ALL INDIA DIGITAL SEVA</strong><small>Digital Service & Print Portal</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="ମେନୁ ଖୋଲନ୍ତୁ" aria-expanded="false">☰</button>
+      <nav id="mainNav" aria-label="ମୁଖ୍ୟ ମେନୁ">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#how">How it works</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> ONE PORTAL • MULTIPLE SERVICES</span>
+          <h1>ଆପଣଙ୍କ ଡିଜିଟାଲ୍ ସେବା,<br><em>ଏବେ ଗୋଟିଏ ସ୍ଥାନରେ।</em></h1>
+          <p>ଅନଲାଇନ୍ ଆବେଦନ, ସରକାରୀ ପୋର୍ଟାଲ୍ ସହାୟତା ଓ ଡକ୍ୟୁମେଣ୍ଟ ପ୍ରିଣ୍ଟିଂ ପାଇଁ ସହଜ ଗାଇଡ୍।</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#services">ସେବା ଦେଖନ୍ତୁ <span>→</span></a><a class="btn btn-light" href="#how">କିପରି କାମ କରେ?</a></div>
+          <div class="hero-points"><span>✓ ସହଜ ନାଭିଗେସନ୍</span><span>✓ ଅଫିସିଆଲ୍ ଲିଙ୍କ୍</span><span>✓ ପ୍ରିଣ୍ଟ ସହାୟତା</span></div>
+        </div>
+        <div class="hero-art" aria-label="Digital services illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="art-card card-main"><div class="art-icon">▣</div><strong>Digital Seva</strong><span>ସମସ୍ତ ସେବା ଗୋଟିଏ ଜାଗାରେ</span><div class="art-lines"><i></i><i></i><i></i></div></div>
+          <div class="float-card float-top"><b>✓</b><span>ସହଜ ପ୍ରକ୍ରିୟା</span></div>
+          <div class="float-card float-bottom"><b>⌁</b><span>Print & Document</span></div>
+          <div class="art-dot dot-one"></div><div class="art-dot dot-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div class="container trust-grid"><div><b>01</b><span>ସେବା ଖୋଜନ୍ତୁ</span></div><div><b>02</b><span>ଅଫିସିଆଲ୍ ଲିଙ୍କ୍ ଖୋଲନ୍ତୁ</span></div><div><b>03</b><span>ଆବଶ୍ୟକ ସହାୟତା ନିଅନ୍ତୁ</span></div></div></section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">OUR SERVICES</span><h2>ଆମର ଡିଜିଟାଲ୍ ସେବା</h2><p>ଆପଣ ଆବଶ୍ୟକ କରୁଥିବା ସେବାକୁ ସହଜରେ ଖୋଜନ୍ତୁ।</p></div><span class="service-count" id="serviceCount">ସେବା ଲୋଡ୍ ହେଉଛି...</span></div>
+        <div class="service-tools"><label class="search-box"><span>⌕</span><input id="serviceSearch" type="search" placeholder="ସେବା ଖୋଜନ୍ତୁ..." aria-label="ସେବା ଖୋଜନ୍ତୁ"></label><div class="filters" id="categoryFilters" aria-label="ସେବା ବର୍ଗ"></div></div>
+        <div class="service-grid" id="serviceGrid"><div class="loading">ସେବା ଲୋଡ୍ ହେଉଛି...</div></div>
+        <p class="empty-state" id="emptyState" hidden>ଏହି ନାମରେ କୌଣସି ସେବା ମିଳିଲା ନାହିଁ। ଅନ୍ୟ ଶବ୍ଦରେ ଖୋଜନ୍ତୁ।</p>
+      </div>
+    </section>
+
+    <section class="how-section section" id="how"><div class="container"><div class="section-heading centered"><span class="eyebrow">SIMPLE PROCESS</span><h2>କିପରି କାମ କରେ?</h2><p>ପ୍ରତ୍ୟେକ ସେବା ପାଇଁ ସ୍ପଷ୍ଟ ଓ ସହଜ ପଦକ୍ଷେପ।</p></div><div class="steps-grid"><article class="step"><span>01</span><h3>ସେବା ବାଛନ୍ତୁ</h3><p>ତାଲିକାରୁ ଆପଣଙ୍କ ଆବଶ୍ୟକ ସେବା ଖୋଜନ୍ତୁ।</p></article><article class="step"><span>02</span><h3>ସୂଚନା ପଢ଼ନ୍ତୁ</h3><p>ଯୋଗ୍ୟତା ଓ ଆବଶ୍ୟକ ଡକ୍ୟୁମେଣ୍ଟ ଯାଞ୍ଚ କରନ୍ତୁ।</p></article><article class="step"><span>03</span><h3>ଅଫିସିଆଲ୍ ପୋର୍ଟାଲ୍</h3><p>ସରକାରୀ କାମ ସମ୍ପୃକ୍ତ ଅଫିସିଆଲ୍ ୱେବସାଇଟ୍‌ରେ କରନ୍ତୁ।</p></article></div></div></section>
+
+    <section class="about-section section" id="about"><div class="container about-grid"><div class="about-badge"><span>ADS</span><small>Digital • Simple • Helpful</small></div><div><span class="eyebrow">ABOUT THE PORTAL</span><h2>ଡିଜିଟାଲ୍ ସେବାକୁ ଆହୁରି ସହଜ କରିବା ଆମର ଲକ୍ଷ୍ୟ।</h2><p>ଏହି ପୋର୍ଟାଲ୍ ହେଉଛି ସେବା ସୂଚନା, ଅଫିସିଆଲ୍ ୱେବସାଇଟ୍ ଲିଙ୍କ୍ ଓ ପ୍ରିଣ୍ଟ ସହାୟତା ପାଇଁ ଏକ ଡେମୋ ପ୍ଲାଟଫର୍ମ। ସମସ୍ତ ଆବେଦନ ସମ୍ପୃକ୍ତ ସରକାରୀ ବା ଅଧିକୃତ ସେବା ପ୍ରଦାନକାରୀଙ୍କ ନିୟମ ଅନୁଯାୟୀ ହେବ।</p></div></div></section>
+
+    <section class="contact-section section" id="contact"><div class="container contact-box"><div><span class="eyebrow">NEED HELP?</span><h2>ସେବା ବିଷୟରେ ସହାୟତା ଦରକାର?</h2><p>ଏଠାରେ ଆପଣଙ୍କ ଅଫିସ୍‌ର ଫୋନ୍ ନମ୍ବର ଓ ଠିକଣା ପରେ ଯୋଡ଼ାଯିବ।</p></div><a class="btn btn-primary" href="#services">ସେବା ଦେଖନ୍ତୁ →</a></div></section>
+  </main>
+  <footer><div class="container footer-inner"><a class="brand footer-brand" href="#"><span class="brand-mark">A<span>+</span></span><span><strong>ALL INDIA DIGITAL SEVA</strong><small>Digital Service & Print Portal</small></span></a><p>© <span id="year"></span> All India Digital Seva. All rights reserved.</p></div><div class="container disclaimer">Disclaimer: ଏହା ଏକ ସ୍ୱତନ୍ତ୍ର ସହାୟତା ପୋର୍ଟାଲ୍; କୌଣସି ସରକାରୀ ୱେବସାଇଟ୍ ନୁହେଁ। ସରକାରୀ ସେବାର ଶୁଳ୍କ, ଯୋଗ୍ୟତା ଓ ନିୟମ ସମ୍ପୃକ୍ତ ଅଫିସିଆଲ୍ ପୋର୍ଟାଲ୍‌ରେ ଯାଞ୍ଚ କରନ୍ତୁ।</div></footer>
+</body>
+</html>
